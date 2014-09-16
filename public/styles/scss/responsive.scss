@@ -1,0 +1,59 @@
+@media only screen and (max-width:968px) {
+	.banner-capa h2 { 
+		font-size: 10vw;
+	}
+	#menu { 
+		min-width: 620px;
+		width: 72%;
+	}
+	#menu ul li a { 
+		padding: 12px 10px;
+	}
+}
+@media only screen and (max-width:768px) {
+	.banner-capa {
+		height: 320px;
+	}
+	.wrap-content.open {
+		position: relative;
+		height: 100%;
+	}
+	#menu { 
+		min-width: inherit; 
+		clear: both;
+	}
+	.show-sm { 
+		display: block;
+	}
+	.hide-sm { 
+		display: none;
+	}
+	.wrap-menu { 
+		position: absolute;
+		top: 0;
+		left: 0;
+		-webkit-transform: translate3d(-100%, 0, 0);
+		-moz-transform: translate3d(-100%, 0, 0);
+		-ms-transform: translate3d(-100%, 0, 0);
+		-o-transform: translate3d(-100%, 0, 0);
+		transform: translate3d(-100%, 0, 0);
+		-webkit-backface-visibility: hidden;
+		-moz-backface-visibility: hidden;
+		-ms-backface-visibility: hidden;
+		-o-backface-visibility: hidden;
+		backface-visibility: hidden;
+		height: 100%;
+		width: 70%;
+		background: #fff;
+		overflow-y: auto;
+	} 
+	.main .content {
+		p{ font: $BodyFontMobile;}
+	}
+	.copy {
+		font: $CopyrightFont;
+		position: absolute; 
+		left: 20px; 
+		bottom: 20px;
+	}
+}
