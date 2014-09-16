@@ -6,7 +6,7 @@ module.exports = function(grunt){
 					style: 'compressed'
 				},
 				files: {
-					'public/styles/main.css': 'public/styles/main.scss'
+					'public/styles/main.css': 'public/styles/scss/include.scss'
 				}
 			}
 		},
@@ -18,7 +18,7 @@ module.exports = function(grunt){
                 files: ['Gruntfile.js']
             },
             sass: {
-            	files: ['public/styles/*.scss'],
+            	files: ['public/styles/scss/*.scss'],
             	tasks: ['sass']
             },
             css: {
